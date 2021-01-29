@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'application'
+    id'com.github.johnrengelman.shadow' version '6.0.0'
+}
+
+mainClassName = 'me.dkim19375.unig0.UniG0'
+
+//noinspection GroovyUnusedAssignment
+sourceCompatibility = targetCompatibility = JavaVersion.VERSION_11
+compileJava.options.encoding 'UTF-8'
+
+group 'me.dkim19375'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url = 'https://jitpack.io' }
+    maven { url = 'https://repo.mattstudios.me/artifactory/public' }
+}
+
+dependencies {
+    implementation 'net.dv8tion:JDA:4.2.0_227'
+    implementation 'me.mattstudios:triumph-config:1.0.5-SNAPSHOT'
+    implementation 'com.github.dkim19375:dkim19375JDAUtils:1.3.3'
+    implementation 'com.google.code.gson:gson:2.8.6'
+}
