@@ -4,7 +4,7 @@ plugins {
     id'com.github.johnrengelman.shadow' version '6.0.0'
 }
 
-mainClassName = 'me.dkim19375.unig0.UniG0'
+mainClassName = 'me.dkim19375.qotdy.QOTDYBot'
 
 //noinspection GroovyUnusedAssignment
 sourceCompatibility = targetCompatibility = JavaVersion.VERSION_11
