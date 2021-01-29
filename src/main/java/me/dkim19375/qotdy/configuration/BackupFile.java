@@ -9,5 +9,5 @@ import java.util.List;
 
 public class BackupFile implements SettingsHolder {
     @Path("used")
-    public static final Property<List<String>> usedList = Property.create(new ArrayList<>());
+    public static final Property<List<String>> USED_LIST = Property.create(new ArrayList<>());
 }

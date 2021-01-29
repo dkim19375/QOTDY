@@ -19,4 +19,8 @@ public class QOTDYBot {
             e.printStackTrace();
         }
     }
+
+    public static FileManager getFileManager() {
+        return fileManager;
+    }
 }

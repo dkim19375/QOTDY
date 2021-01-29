@@ -47,6 +47,6 @@ public class FileManager {
     }
 
     public String getToken() {
-        return config.get(Configs.token);
+        return config.get(Configs.TOKEN);
     }
 }
